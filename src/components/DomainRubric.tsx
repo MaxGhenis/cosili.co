@@ -29,15 +29,15 @@ const DomainRubric: React.FC = () => {
       price: "$45/yr",
       scores: {
         pronounceability: 3,
-        memorability: 4,
-        spelling: 4,
+        memorability: 5,
+        spelling: 3,
         brandability: 5,
         techCredibility: 5,
         domainQuality: 5,
         uniqueness: 5,
         meaning: 5
       },
-      notes: "Original concept. Actually not that hard once you learn it. Strong brand potential."
+      notes: "Infinite recursion: co·silico·silico... Deepest meaning. 'Together in simulation' endlessly."
     },
     {
       name: "Cosili.co",
@@ -45,16 +45,16 @@ const DomainRubric: React.FC = () => {
       availability: 'available',
       price: "$26/yr",
       scores: {
-        pronounceability: 4,
-        memorability: 5,
+        pronounceability: 5,
+        memorability: 4,
         spelling: 4,
-        brandability: 5,
+        brandability: 4,
         techCredibility: 4,
         domainQuality: 5,
-        uniqueness: 5,
+        uniqueness: 4,
         meaning: 4
       },
-      notes: "The .co extension perfectly complements the 'co' prefix. Memorable and affordable."
+      notes: "Maintains some recursion with .co extension. Easier to say but loses some depth."
     },
     {
       name: "Cilico",
@@ -63,15 +63,15 @@ const DomainRubric: React.FC = () => {
       price: "$45/yr",
       scores: {
         pronounceability: 5,
-        memorability: 4,
-        spelling: 3,
-        brandability: 4,
-        techCredibility: 5,
+        memorability: 3,
+        spelling: 2,
+        brandability: 3,
+        techCredibility: 4,
         domainQuality: 4,
-        uniqueness: 4,
-        meaning: 4
+        uniqueness: 3,
+        meaning: 3
       },
-      notes: "Clean, modern, keeps 'silico' reference. Growing on us!"
+      notes: "Loses 'co' prefix meaning and recursive pattern. Just computational, no collaboration."
     },
     {
       name: "Microsim",
@@ -80,15 +80,15 @@ const DomainRubric: React.FC = () => {
       price: "$45/yr",
       scores: {
         pronounceability: 5,
-        memorability: 4,
+        memorability: 3,
         spelling: 5,
         brandability: 2,
-        techCredibility: 5,
+        techCredibility: 4,
         domainQuality: 4,
         uniqueness: 2,
-        meaning: 5
+        meaning: 4
       },
-      notes: "Too generic? Might be confused with microprocessor simulation. Clear but not distinctive."
+      notes: "Generic, no deeper meaning. Could be any micro-simulation tool."
     },
     {
       name: "Schelling",
@@ -97,15 +97,15 @@ const DomainRubric: React.FC = () => {
       price: "$45/yr",
       scores: {
         pronounceability: 2,
-        memorability: 4,
+        memorability: 3,
         spelling: 2,
-        brandability: 4,
+        brandability: 3,
         techCredibility: 5,
         domainQuality: 4,
-        uniqueness: 5,
-        meaning: 5
+        uniqueness: 4,
+        meaning: 4
       },
-      notes: "Great academic credibility, but 'shelling' confusion is real. Hard to spell from hearing."
+      notes: "Academic credibility but no poetic/recursive meaning. Practical issues remain."
     },
     {
       name: "Socisim",
@@ -114,15 +114,15 @@ const DomainRubric: React.FC = () => {
       price: "$45/yr",
       scores: {
         pronounceability: 5,
-        memorability: 3,
+        memorability: 2,
         spelling: 4,
         brandability: 2,
         techCredibility: 3,
         domainQuality: 4,
-        uniqueness: 3,
-        meaning: 5
+        uniqueness: 2,
+        meaning: 3
       },
-      notes: "Too on-the-nose? Sounds like a sociology homework tool. Clear but lacks sophistication."
+      notes: "Literal, no depth, no poetry. Just 'social simulation' - boring."
     }
   ];
 
