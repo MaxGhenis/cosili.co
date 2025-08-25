@@ -21,7 +21,7 @@ function App() {
       <section className="hero">
         <div className="container">
           <h1 className="hero-title">
-            Open Infrastructure for <span className="gradient-text">Societal Simulation</span>
+            Simulating Society <span className="gradient-text">Together</span>
           </h1>
           <p className="hero-subtitle">
             Modular, open-source tools for modeling society. From calibrated microdata to economic models, 
