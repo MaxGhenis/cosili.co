@@ -48,7 +48,9 @@ body {
   align-items: center;
 }
 
-.nav-links a {
+.nav-links a,
+.nav-links a:link,
+.nav-links a:visited {
   color: #666;
   text-decoration: none;
   font-weight: 500;

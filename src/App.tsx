@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 import Logo from './components/Logo';
 
@@ -12,6 +13,7 @@ function App() {
           <div className="nav-links">
             <a href="#features">Features</a>
             <a href="#about">About</a>
+            <Link to="/rubric">Domain Rubric</Link>
             <a href="https://github.com/maxghenis/cosilico.org" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
