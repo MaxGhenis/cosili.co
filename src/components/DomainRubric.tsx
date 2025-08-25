@@ -30,14 +30,14 @@ const DomainRubric: React.FC = () => {
       scores: {
         pronounceability: 3,
         memorability: 4,
-        spelling: 3,
+        spelling: 4,
         brandability: 5,
         techCredibility: 5,
-        domainQuality: 4,
+        domainQuality: 5,
         uniqueness: 5,
         meaning: 5
       },
-      notes: "Original concept, 'co' + 'in silico', but pronunciation issues"
+      notes: "Original concept. Actually not that hard once you learn it. Strong brand potential."
     },
     {
       name: "Cosili.co",
@@ -46,15 +46,15 @@ const DomainRubric: React.FC = () => {
       price: "$26/yr",
       scores: {
         pronounceability: 4,
-        memorability: 4,
+        memorability: 5,
         spelling: 4,
-        brandability: 4,
+        brandability: 5,
         techCredibility: 4,
         domainQuality: 5,
         uniqueness: 5,
         meaning: 4
       },
-      notes: "Shortened version, .co reinforces prefix, easier to say"
+      notes: "The .co extension perfectly complements the 'co' prefix. Memorable and affordable."
     },
     {
       name: "Cilico",
@@ -82,13 +82,13 @@ const DomainRubric: React.FC = () => {
         pronounceability: 5,
         memorability: 4,
         spelling: 5,
-        brandability: 3,
+        brandability: 2,
         techCredibility: 5,
         domainQuality: 4,
         uniqueness: 2,
         meaning: 5
       },
-      notes: "Industry standard term, very clear purpose"
+      notes: "Too generic? Might be confused with microprocessor simulation. Clear but not distinctive."
     },
     {
       name: "Schelling",
@@ -97,15 +97,15 @@ const DomainRubric: React.FC = () => {
       price: "$45/yr",
       scores: {
         pronounceability: 2,
-        memorability: 3,
-        spelling: 3,
+        memorability: 4,
+        spelling: 2,
         brandability: 4,
         techCredibility: 5,
         domainQuality: 4,
         uniqueness: 5,
         meaning: 5
       },
-      notes: "Nobel laureate reference, but sounds like 'shelling'"
+      notes: "Great academic credibility, but 'shelling' confusion is real. Hard to spell from hearing."
     },
     {
       name: "Socisim",
@@ -113,16 +113,16 @@ const DomainRubric: React.FC = () => {
       availability: 'available',
       price: "$45/yr",
       scores: {
-        pronounceability: 4,
+        pronounceability: 5,
         memorability: 3,
         spelling: 4,
-        brandability: 3,
+        brandability: 2,
         techCredibility: 3,
         domainQuality: 4,
-        uniqueness: 4,
+        uniqueness: 3,
         meaning: 5
       },
-      notes: "Social + simulation, very literal"
+      notes: "Too on-the-nose? Sounds like a sociology homework tool. Clear but lacks sophistication."
     }
   ];
 
