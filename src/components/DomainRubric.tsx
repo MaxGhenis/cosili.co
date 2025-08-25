@@ -62,16 +62,16 @@ const DomainRubric: React.FC = () => {
       availability: 'available',
       price: "$45/yr",
       scores: {
-        pronounceability: 4,
-        memorability: 3,
-        spelling: 2,
-        brandability: 3,
-        techCredibility: 4,
+        pronounceability: 5,
+        memorability: 4,
+        spelling: 3,
+        brandability: 4,
+        techCredibility: 5,
         domainQuality: 4,
-        uniqueness: 3,
+        uniqueness: 4,
         meaning: 4
       },
-      notes: "Cleaner but confused with 'Silico'"
+      notes: "Clean, modern, keeps 'silico' reference. Growing on us!"
     },
     {
       name: "Microsim",
