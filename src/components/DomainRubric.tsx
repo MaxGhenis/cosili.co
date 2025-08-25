@@ -110,8 +110,8 @@ const DomainRubric: React.FC = () => {
     {
       name: "Conway",
       domain: "conway.io",
-      availability: 'available',
-      price: "$45/yr",
+      availability: 'taken',
+      price: "N/A",
       scores: {
         pronounceability: 5,
         memorability: 5,
@@ -127,8 +127,8 @@ const DomainRubric: React.FC = () => {
     {
       name: "Simbase",
       domain: "simbase.io",
-      availability: 'available',
-      price: "$45/yr",
+      availability: 'taken',
+      price: "N/A",
       scores: {
         pronounceability: 5,
         memorability: 4,
@@ -144,8 +144,8 @@ const DomainRubric: React.FC = () => {
     {
       name: "Forrester",
       domain: "forrester.io",
-      availability: 'available',
-      price: "$45/yr",
+      availability: 'taken',
+      price: "N/A",
       scores: {
         pronounceability: 5,
         memorability: 4,
@@ -161,8 +161,8 @@ const DomainRubric: React.FC = () => {
     {
       name: "Lattica",
       domain: "lattica.io",
-      availability: 'available',
-      price: "$45/yr",
+      availability: 'taken',
+      price: "N/A",
       scores: {
         pronounceability: 4,
         memorability: 4,
