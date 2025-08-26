@@ -349,7 +349,7 @@ body {
   overflow: hidden;
   user-select: none;
   margin: 0 auto 16px;
-  max-width: 250px;
+  max-width: 400px;
   width: 100%;
 }
 
@@ -375,7 +375,7 @@ body {
   letter-spacing: -0.02em;
   font-weight: 400;
   white-space: nowrap;
-  padding: 0 10px;
+  padding-right: 40px;
 }
 
 /* Pause on hover */
