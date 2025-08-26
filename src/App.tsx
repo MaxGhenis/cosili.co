@@ -156,8 +156,10 @@ function App() {
               </div>
             </div>
             <div className="recursive-visual">
-              <div className="recursive-text">
-                <span className="recursive-bold">co</span>silico<span className="recursive-bold">silico</span>silico
+              <div className="recursive-scroll-container">
+                <div className="recursive-text">
+                  <span className="recursive-bold">co</span>silicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilico
+                </div>
               </div>
               <div className="recursive-description">
                 The name itself embodies our mission: endless recursive simulation, 

@@ -343,13 +343,39 @@ body {
   text-align: center;
 }
 
+.recursive-scroll-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-bottom: 16px;
+  padding: 8px 0;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #0066ff #f0f0f0;
+}
+
+.recursive-scroll-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.recursive-scroll-container::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 3px;
+}
+
+.recursive-scroll-container::-webkit-scrollbar-thumb {
+  background: #0066ff;
+  border-radius: 3px;
+}
+
 .recursive-text {
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
   font-size: 1.8rem;
   color: #0066ff;
-  margin-bottom: 16px;
   letter-spacing: -0.02em;
   font-weight: 400;
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .recursive-bold {
@@ -699,6 +725,10 @@ body {
   
   .recursive-visual {
     padding: 24px;
+  }
+  
+  .recursive-scroll-container {
+    padding: 4px 0;
   }
   
   .recursive-text {
