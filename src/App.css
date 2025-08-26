@@ -344,11 +344,17 @@ body {
 }
 
 .recursive-text {
-  font-family: 'Monaco', 'Courier New', monospace;
-  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
+  font-size: 1.8rem;
   color: #0066ff;
   margin-bottom: 16px;
-  letter-spacing: 0.05em;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+
+.recursive-bold {
+  font-weight: 700;
+  color: #0052cc;
 }
 
 .recursive-description {
@@ -696,7 +702,7 @@ body {
   }
   
   .recursive-text {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
   
   .recursive-description {

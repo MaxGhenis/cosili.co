@@ -156,7 +156,9 @@ function App() {
               </div>
             </div>
             <div className="recursive-visual">
-              <div className="recursive-text">co·silico·silico·silico...</div>
+              <div className="recursive-text">
+                <span className="recursive-bold">co</span>silico<span className="recursive-bold">silico</span>silico
+              </div>
               <div className="recursive-description">
                 The name itself embodies our mission: endless recursive simulation, 
                 where each model informs the next, creating ever-better representations of society.
