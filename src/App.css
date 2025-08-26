@@ -343,49 +343,45 @@ body {
   text-align: center;
 }
 
-.marquee {
-  position: relative;
-  display: flex;
+/* Standard Marquee Implementation */
+.marquee-container {
   overflow: hidden;
-  user-select: none;
-  margin: 0 auto 16px;
+  white-space: nowrap;
   max-width: 400px;
-  width: 100%;
+  margin: 0 auto 16px;
 }
 
-.marquee__content {
-  flex-shrink: 0;
-  display: flex;
-  animation: scroll 15s linear infinite;
+.marquee-track {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
 }
 
-@keyframes scroll {
-  from {
-    transform: translateX(0);
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
   }
-  to {
-    transform: translateX(-100%);
+  100% {
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
-.marquee__item {
+.marquee-text {
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
   font-size: 1.8rem;
   color: #0066ff;
   letter-spacing: -0.02em;
   font-weight: 400;
-  white-space: nowrap;
-  padding-right: 40px;
+  display: inline-block;
 }
 
 /* Pause on hover */
-.marquee:hover .marquee__content {
+.marquee-container:hover .marquee-track {
   animation-play-state: paused;
 }
 
 /* Respect reduced motion preference */
 @media (prefers-reduced-motion: reduce) {
-  .marquee__content {
+  .marquee-track {
     animation: none;
   }
 }
@@ -739,7 +735,7 @@ body {
     padding: 24px;
   }
   
-  .marquee__item {
+  .marquee-text {
     font-size: 1.3rem;
   }
   

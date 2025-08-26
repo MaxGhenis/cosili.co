@@ -156,12 +156,14 @@ function App() {
               </div>
             </div>
             <div className="recursive-visual">
-              <div className="marquee">
-                <div className="marquee__content">
-                  <span className="marquee__item"><span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili</span>
-                </div>
-                <div className="marquee__content" aria-hidden="true">
-                  <span className="marquee__item"><span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili</span>
+              <div className="marquee-container">
+                <div className="marquee-track">
+                  <span className="marquee-text">
+                    <span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>&nbsp;&nbsp;
+                  </span>
+                  <span className="marquee-text">
+                    <span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>&nbsp;&nbsp;
+                  </span>
                 </div>
               </div>
               <div className="recursive-description">
