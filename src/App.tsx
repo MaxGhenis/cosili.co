@@ -158,12 +158,7 @@ function App() {
             <div className="recursive-visual">
               <div className="recursive-scroll-container">
                 <div className="recursive-text">
-                  <span className="recursive-pattern">
-                    <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
-                  </span>
-                  <span className="recursive-pattern">
-                    <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
-                  </span>
+                  <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
                 </div>
               </div>
               <div className="recursive-description">
