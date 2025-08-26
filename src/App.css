@@ -356,9 +356,7 @@ body {
 .marquee__content {
   flex-shrink: 0;
   display: flex;
-  justify-content: center;
   animation: scroll 15s linear infinite;
-  padding-right: 20px;
 }
 
 @keyframes scroll {
@@ -366,7 +364,7 @@ body {
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-100% - 20px));
+    transform: translateX(-100%);
   }
 }
 
@@ -377,6 +375,7 @@ body {
   letter-spacing: -0.02em;
   font-weight: 400;
   white-space: nowrap;
+  padding: 0 10px;
 }
 
 /* Pause on hover */
