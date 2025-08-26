@@ -344,12 +344,10 @@ body {
 }
 
 .marquee {
-  --gap: 2rem;
   position: relative;
   display: flex;
   overflow: hidden;
   user-select: none;
-  gap: var(--gap);
   margin: 0 auto 16px;
   max-width: 250px;
   width: 100%;
@@ -359,9 +357,8 @@ body {
   flex-shrink: 0;
   display: flex;
   justify-content: center;
-  gap: var(--gap);
   animation: scroll 15s linear infinite;
-  padding-right: var(--gap);
+  padding-right: 20px;
 }
 
 @keyframes scroll {
@@ -369,7 +366,7 @@ body {
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-100% - var(--gap)));
+    transform: translateX(calc(-100% - 20px));
   }
 }
 
