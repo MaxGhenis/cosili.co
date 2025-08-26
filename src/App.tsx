@@ -159,12 +159,12 @@ function App() {
               <div className="marquee">
                 <div className="marquee__content">
                   <span className="marquee__item">
-                    <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
+                    <span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>
                   </span>
                 </div>
                 <div className="marquee__content" aria-hidden="true">
                   <span className="marquee__item">
-                    <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
+                    <span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>sili<span className="recursive-bold">co</span>
                   </span>
                 </div>
               </div>
