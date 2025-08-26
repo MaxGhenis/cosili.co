@@ -343,47 +343,41 @@ body {
   text-align: center;
 }
 
-/* Standard Marquee Implementation */
-.marquee-container {
-  overflow: hidden;
-  white-space: nowrap;
-  max-width: 400px;
+/* Simple Working Marquee */
+.simple-marquee {
+  width: 100%;
+  max-width: 300px;
   margin: 0 auto 16px;
+  overflow: hidden;
 }
 
-.marquee-track {
-  display: inline-block;
-  animation: marquee 20s linear infinite;
+.marquee-inner {
+  display: flex;
+  animation: marquee 15s linear infinite;
+  width: fit-content;
 }
 
-@keyframes marquee {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-50%, 0, 0);
-  }
-}
-
-.marquee-text {
+.marquee-inner span {
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
   font-size: 1.8rem;
   color: #0066ff;
   letter-spacing: -0.02em;
   font-weight: 400;
-  display: inline-block;
+  white-space: nowrap;
+  padding-right: 20px;
 }
 
-/* Pause on hover */
-.marquee-container:hover .marquee-track {
-  animation-play-state: paused;
-}
-
-/* Respect reduced motion preference */
-@media (prefers-reduced-motion: reduce) {
-  .marquee-track {
-    animation: none;
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
   }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.simple-marquee:hover .marquee-inner {
+  animation-play-state: paused;
 }
 
 .recursive-bold {
@@ -735,7 +729,7 @@ body {
     padding: 24px;
   }
   
-  .marquee-text {
+  .marquee-inner span {
     font-size: 1.3rem;
   }
   
