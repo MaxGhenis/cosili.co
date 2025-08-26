@@ -158,7 +158,7 @@ function App() {
             <div className="recursive-visual">
               <div className="recursive-scroll-container">
                 <div className="recursive-text">
-                  <span className="recursive-bold">co</span>silicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilico
+                  <span className="recursive-bold">co</span>silicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilicosilico
                 </div>
               </div>
               <div className="recursive-description">
