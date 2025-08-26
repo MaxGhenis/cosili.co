@@ -346,7 +346,26 @@ body {
 .recursive-scroll-container {
   margin-bottom: 16px;
   padding: 8px 0;
-  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes scrollLoop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.recursive-scroll-wrapper {
+  display: flex;
+  animation: scrollLoop 30s linear infinite;
+  white-space: nowrap;
 }
 
 .recursive-text {
@@ -356,6 +375,7 @@ body {
   letter-spacing: -0.02em;
   font-weight: 400;
   display: inline-block;
+  white-space: nowrap;
 }
 
 .recursive-bold {
@@ -709,6 +729,7 @@ body {
   
   .recursive-scroll-container {
     padding: 4px 0;
+    max-width: 100%;
   }
   
   .recursive-text {
