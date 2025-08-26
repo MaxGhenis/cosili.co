@@ -1,5 +1,6 @@
 {
-  "name": "cosilico.org",
+  "name": "cosili.co",
+  "homepage": "https://cosili.co",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

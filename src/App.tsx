@@ -14,7 +14,7 @@ function App() {
             <a href="#features">Features</a>
             <a href="#about">About</a>
             <Link to="/rubric">Domain Rubric</Link>
-            <a href="https://github.com/maxghenis/cosilico.org" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/maxghenis/cosili.co" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
       </nav>
@@ -97,7 +97,7 @@ function App() {
             <Logo size={32} />
             <p>© 2025 Cosilico. Built on PolicyEngine.</p>
             <div className="footer-links">
-              <a href="https://github.com/maxghenis/cosilico.org" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://github.com/maxghenis/cosili.co" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href="https://policyengine.org" target="_blank" rel="noopener noreferrer">PolicyEngine</a>
             </div>
           </div>
