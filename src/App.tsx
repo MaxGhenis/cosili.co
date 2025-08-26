@@ -57,7 +57,7 @@ function App() {
                 <div className="product-icon">💰</div>
                 <h3>Cosilico <span className="product-verb">Budget</span></h3>
               </div>
-              <p>Personal financial planning powered by real policy rules. Understand how taxes and benefits affect individual households using Monte Carlo methods.</p>
+              <p>Real policy rules power personal financial planning. Monte Carlo methods show how taxes and benefits affect individual households.</p>
               <a href="/budget" className="product-link">Learn more →</a>
             </div>
             <div className="product-card">
@@ -73,7 +73,7 @@ function App() {
                 <div className="product-icon">📝</div>
                 <h3>Cosilico <span className="product-verb">Propose</span></h3>
               </div>
-              <p>AI-powered grant and proposal assistance. Get feedback on funding applications using models trained on successful proposals.</p>
+              <p>AI powers grant and proposal assistance. Models trained on successful proposals provide feedback on funding applications.</p>
               <a href="/propose" className="product-link">Learn more →</a>
             </div>
           </div>
@@ -83,7 +83,7 @@ function App() {
       {/* Engine Section */}
       <section id="engine" className="engine">
         <div className="container">
-          <h2 className="section-title">Powered by the Cosilico Engine</h2>
+          <h2 className="section-title">The Cosilico Engine Powers Everything</h2>
           <p className="section-subtitle">
             Three core engines work together to create a complete picture of society.
           </p>
@@ -132,8 +132,8 @@ function App() {
           <div className="open-source-content">
             <div className="open-source-text">
               <p>
-                Cosilico is built on the principle that understanding society requires transparency. 
-                All our code is open source, our methodologies are documented, and our data is accessible.
+                Cosilico builds on the principle that understanding society requires transparency. 
+                We open source all our code, document our methodologies, and make our data accessible.
               </p>
               <p>
                 We're not just simulating society — we're doing it together. Join our community of 
@@ -159,10 +159,10 @@ function App() {
               <div className="recursive-scroll-container">
                 <div className="recursive-scroll-wrapper">
                   <div className="recursive-text">
-                    <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
+                    <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
                   </div>
                   <div className="recursive-text">
-                    <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
+                    <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
                   </div>
                 </div>
               </div>
@@ -214,13 +214,13 @@ function App() {
           <h2 className="section-title">From PolicyEngine to Cosilico</h2>
           <p className="about-text">
             Cosilico evolved from PolicyEngine, expanding beyond policy simulation to encompass 
-            the full spectrum of societal modeling. We're building the infrastructure for a world 
-            where complex systems can be understood, tested, and improved through open collaboration.
+            the full spectrum of societal modeling. We build infrastructure for a world 
+            where complex systems become understandable, testable, and improvable through open collaboration.
           </p>
           <p className="about-text">
-            Our vision: a future where every major decision — from legislation to personal finance — 
-            is informed by accurate, accessible simulation. Where society's rules are not just written 
-            in law books, but encoded, tested, and continuously improved.
+            Our vision: a future where accurate, accessible simulation informs every major decision — 
+            from legislation to personal finance. Society's rules move beyond law books to become 
+            encoded, tested, and continuously improved systems.
           </p>
           <div className="logo-showcase">
             <Logo size={120} showText={false} />
