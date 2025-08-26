@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Cosilico",
+  "name": "Cosilico - Simulating Society Together",
+  "description": "Open-source infrastructure for modeling society in silico",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#0066ff",
   "background_color": "#ffffff"
 }
