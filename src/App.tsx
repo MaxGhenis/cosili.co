@@ -156,8 +156,17 @@ function App() {
               </div>
             </div>
             <div className="recursive-visual">
-              <div className="recursive-pattern-container">
-                <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
+              <div className="marquee">
+                <div className="marquee__content">
+                  <span className="marquee__item">
+                    <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
+                  </span>
+                </div>
+                <div className="marquee__content" aria-hidden="true">
+                  <span className="marquee__item">
+                    <span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico<span className="recursive-bold">co</span>silico
+                  </span>
+                </div>
               </div>
               <div className="recursive-description">
                 Endless recursive simulation where each model informs the next, 
