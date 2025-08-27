@@ -346,14 +346,13 @@ body {
 /* Simple Working Marquee */
 .simple-marquee {
   width: 100%;
-  max-width: 300px;
-  margin: 0 auto 16px;
+  margin: 0 0 16px;
   overflow: hidden;
 }
 
 .marquee-inner {
   display: flex;
-  animation: marquee 20s linear infinite;
+  animation: marquee 40s linear infinite;
   width: fit-content;
 }
 
