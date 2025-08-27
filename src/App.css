@@ -364,7 +364,7 @@ body {
   letter-spacing: -0.02em;
   font-weight: 400;
   white-space: nowrap;
-  padding-right: 50px;
+  /* NO PADDING - text should be continuous */
 }
 
 @keyframes marquee {
