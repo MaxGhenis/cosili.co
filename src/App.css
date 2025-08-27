@@ -343,11 +343,40 @@ body {
   text-align: center;
 }
 
+/* Marquee Wrapper */
+.simple-marquee-wrapper {
+  max-width: 400px;
+  margin: 0 auto 16px;
+  position: relative;
+}
+
 /* Simple Working Marquee */
 .simple-marquee {
   width: 100%;
-  margin: 0 0 16px;
   overflow: hidden;
+  position: relative;
+}
+
+/* Fade edges */
+.simple-marquee::before,
+.simple-marquee::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.simple-marquee::before {
+  left: 0;
+  background: linear-gradient(to right, #f5f7fa, transparent);
+}
+
+.simple-marquee::after {
+  right: 0;
+  background: linear-gradient(to left, #f5f7fa, transparent);
 }
 
 .marquee-inner {
