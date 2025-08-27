@@ -372,12 +372,12 @@ body {
 
 .simple-marquee::before {
   left: 0;
-  background: linear-gradient(to right, rgba(232, 235, 242, 1), rgba(232, 235, 242, 0));
+  background: linear-gradient(to right, rgba(240, 243, 248, 1), rgba(240, 243, 248, 0));
 }
 
 .simple-marquee::after {
   right: 0;
-  background: linear-gradient(to left, rgba(232, 235, 242, 1), rgba(232, 235, 242, 0));
+  background: linear-gradient(to left, rgba(240, 243, 248, 1), rgba(240, 243, 248, 0));
 }
 
 .marquee-inner {
