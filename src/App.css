@@ -345,8 +345,9 @@ body {
 
 /* Marquee Wrapper */
 .simple-marquee-wrapper {
-  max-width: 400px;
-  margin: 0 auto 16px;
+  width: calc(100% + 80px);
+  max-width: 480px;
+  margin: 0 -40px 16px -40px;
   position: relative;
 }
 
@@ -371,17 +372,17 @@ body {
 
 .simple-marquee::before {
   left: 0;
-  background: linear-gradient(to right, #f5f7fa, transparent);
+  background: linear-gradient(to right, rgba(232, 235, 242, 1), rgba(232, 235, 242, 0));
 }
 
 .simple-marquee::after {
   right: 0;
-  background: linear-gradient(to left, #f5f7fa, transparent);
+  background: linear-gradient(to left, rgba(232, 235, 242, 1), rgba(232, 235, 242, 0));
 }
 
 .marquee-inner {
   display: flex;
-  animation: marquee 40s linear infinite;
+  animation: marquee 50s linear infinite;
   width: fit-content;
 }
 
