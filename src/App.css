@@ -337,7 +337,8 @@ body {
 }
 
 .recursive-visual {
-  background: linear-gradient(135deg, #f5f7fa 0%, #e5e9f2 100%);
+  --bg-color: #edf0f5;
+  background: var(--bg-color);
   padding: 40px;
   border-radius: 16px;
   text-align: center;
@@ -372,12 +373,12 @@ body {
 
 .simple-marquee::before {
   left: 0;
-  background: linear-gradient(to right, rgba(240, 243, 248, 1), rgba(240, 243, 248, 0));
+  background: linear-gradient(to right, var(--bg-color), transparent);
 }
 
 .simple-marquee::after {
   right: 0;
-  background: linear-gradient(to left, rgba(240, 243, 248, 1), rgba(240, 243, 248, 0));
+  background: linear-gradient(to left, var(--bg-color), transparent);
 }
 
 .marquee-inner {
