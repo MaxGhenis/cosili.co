@@ -383,7 +383,7 @@ body {
 
 .marquee-inner {
   display: flex;
-  animation: marquee 50s linear infinite;
+  animation: marquee 70s linear infinite;
   width: fit-content;
 }
 
