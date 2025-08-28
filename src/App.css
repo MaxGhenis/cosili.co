@@ -588,6 +588,102 @@ body {
   font-size: 0.875rem;
 }
 
+/* Gallery Section */
+.gallery-section {
+  padding: 100px 0;
+  background: #fafafa;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.gallery-item {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+}
+
+.gallery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+  height: 200px;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.gallery-image img {
+  max-width: 80%;
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.gallery-placeholder {
+  font-size: 1.5rem;
+  color: #999;
+  font-weight: 600;
+}
+
+.gallery-content {
+  padding: 32px;
+}
+
+.gallery-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.gallery-content p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.gallery-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.gallery-features li {
+  padding: 8px 0;
+  color: #555;
+  position: relative;
+  padding-left: 20px;
+}
+
+.gallery-features li:before {
+  content: "✓";
+  color: #0066ff;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.gallery-link {
+  color: #0066ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.gallery-link:hover {
+  color: #0052cc;
+}
+
 /* Features Section (old) */
 .features {
   padding: 100px 0;

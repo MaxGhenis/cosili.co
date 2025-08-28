@@ -11,9 +11,9 @@ function App() {
         <div className="container">
           <Logo size={40} />
           <div className="nav-links">
-            <a href="#products">Products</a>
-            <a href="#engine" className="desktop-only">Engine</a>
-            <a href="#about" className="desktop-only">About</a>
+            <a href="#platform">Platform</a>
+            <a href="#gallery" className="desktop-only">Gallery</a>
+            <a href="#enterprise" className="desktop-only">Enterprise</a>
             <a href="https://github.com/maxghenis/cosili.co" target="_blank" rel="noopener noreferrer">GitHub</a>
           </div>
         </div>
@@ -26,100 +26,149 @@ function App() {
             Simulating Society <span className="gradient-text">Together</span>
           </h1>
           <p className="hero-subtitle">
-            Open-source infrastructure for modeling society in silico. From tax and benefit systems to 
-            human behavior, we're building the tools to understand and improve how society works.
+            Open-source API platform for modeling tax systems, benefits, and economic behavior. 
+            Build any societal simulation with our comprehensive data and rules.
           </p>
           <div className="hero-buttons">
-            <button className="btn btn-primary">Explore Products</button>
+            <button className="btn btn-primary">Try Playground</button>
             <button className="btn btn-secondary">View Documentation</button>
           </div>
         </div>
       </section>
 
-      {/* Products Section */}
-      <section id="products" className="products">
+      {/* Platform Section */}
+      <section id="platform" className="engine">
         <div className="container">
-          <h2 className="section-title">The Cosilico Suite</h2>
+          <h2 className="section-title">The Cosilico Platform</h2>
           <p className="section-subtitle">
-            Action-oriented tools that transform complex societal systems into understandable, testable models.
+            Three core components power comprehensive societal modeling
           </p>
-          <div className="products-grid">
-            <div className="product-card">
-              <div className="product-header">
-                <div className="product-icon">🏛️</div>
-                <h3>Cosilico <span className="product-verb">Govern</span></h3>
-              </div>
-              <p>Model and test policy changes before implementation. Simulate tax systems, benefits programs, and regulatory impacts with unprecedented accuracy.</p>
-              <a href="/govern" className="product-link">Learn more →</a>
+          <div className="engine-grid">
+            <div className="engine-component">
+              <div className="engine-icon">⚖️</div>
+              <h3>Rules</h3>
+              <p>Complete tax and benefit systems encoded as code. Every federal, state, and local policy parameter validated and versioned.</p>
+              <ul className="engine-features">
+                <li>50,000+ policy parameters</li>
+                <li>Historical policy tracking</li>
+                <li>Multi-jurisdiction support</li>
+                <li>Continuous validation</li>
+              </ul>
             </div>
-            <div className="product-card">
-              <div className="product-header">
-                <div className="product-icon">💰</div>
-                <h3>Cosilico <span className="product-verb">Budget</span></h3>
-              </div>
-              <p>Real policy rules power personal financial planning. Monte Carlo methods show how taxes and benefits affect individual households.</p>
-              <a href="/budget" className="product-link">Learn more →</a>
+            <div className="engine-component">
+              <div className="engine-icon">👥</div>
+              <h3>Data</h3>
+              <p>Representative microdata calibrated to any geography. Synthetic households matching real demographic distributions.</p>
+              <ul className="engine-features">
+                <li>50M+ simulated households</li>
+                <li>Local area calibration</li>
+                <li>Survey data integration</li>
+                <li>Privacy-preserving methods</li>
+              </ul>
             </div>
-            <div className="product-card">
-              <div className="product-header">
-                <div className="product-icon">📋</div>
-                <h3>Cosilico <span className="product-verb">Survey</span></h3>
-              </div>
-              <p>Run simulated human surveys in silico. Test questions against representative microdata to predict real-world responses before fielding.</p>
-              <a href="/survey" className="product-link">Learn more →</a>
-            </div>
-            <div className="product-card">
-              <div className="product-header">
-                <div className="product-icon">📝</div>
-                <h3>Cosilico <span className="product-verb">Propose</span></h3>
-              </div>
-              <p>AI powers grant and proposal assistance. Models trained on successful proposals provide feedback on funding applications.</p>
-              <a href="/propose" className="product-link">Learn more →</a>
+            <div className="engine-component">
+              <div className="engine-icon">📊</div>
+              <h3>Dynamics</h3>
+              <p>Economic behavioral modeling and responses. Labor supply elasticities, consumption patterns, and equilibrium effects.</p>
+              <ul className="engine-features">
+                <li>Behavioral responses</li>
+                <li>Monte Carlo simulations</li>
+                <li>Optimal tax theory</li>
+                <li>General equilibrium</li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Engine Section */}
-      <section id="engine" className="engine">
+      {/* Access Section */}
+      <section id="access" className="products">
         <div className="container">
-          <h2 className="section-title">The Cosilico Engine Powers Everything</h2>
+          <h2 className="section-title">Access the Platform</h2>
           <p className="section-subtitle">
-            Three core engines work together to create a complete picture of society.
+            Multiple ways to integrate Cosilico. No API keys or authentication required. 100% open source.
           </p>
-          <div className="engine-grid">
-            <div className="engine-component">
-              <div className="engine-icon">⚖️</div>
-              <h3>Rules Engine</h3>
-              <p>Encode laws, regulations, and policies as code. Our deterministic rules engine captures every edge case, from federal tax law to local benefit programs.</p>
-              <ul className="engine-features">
-                <li>Complete tax and benefit calculations</li>
-                <li>Multi-jurisdiction support</li>
-                <li>Historical policy parameters</li>
-                <li>API access for developers</li>
-              </ul>
+          <div className="products-grid">
+            <div className="product-card">
+              <div className="product-header">
+                <div className="product-icon">🎮</div>
+                <h3>Interactive <span className="product-verb">Playground</span></h3>
+              </div>
+              <p>Try Cosilico directly in your browser. Live Python environment with Jupyter notebooks. No installation needed, just start coding.</p>
+              <a href="/playground" className="product-link">Open playground →</a>
             </div>
-            <div className="engine-component">
-              <div className="engine-icon">👥</div>
-              <h3>Data Engine</h3>
-              <p>Generate representative microdata calibrated to any geography. From cities to states, get the full distribution of households and individuals.</p>
-              <ul className="engine-features">
-                <li>Local-area calibration</li>
-                <li>Synthetic population generation</li>
-                <li>Demographic weighting</li>
-                <li>Privacy-preserving techniques</li>
-              </ul>
+            <div className="product-card">
+              <div className="product-header">
+                <div className="product-icon">🐍</div>
+                <h3>Python <span className="product-verb">Package</span></h3>
+              </div>
+              <p>Full-featured Python library for direct integration. Complete access to rules, data, and dynamics. Used by governments and research institutions.</p>
+              <a href="/docs/python" className="product-link">pip install cosilico →</a>
             </div>
-            <div className="engine-component">
-              <div className="engine-icon">📊</div>
-              <h3>Economics Engine</h3>
-              <p>Model behavioral responses and economic impacts. Understand how policy changes ripple through society using state-of-the-art economic models.</p>
-              <ul className="engine-features">
-                <li>Labor supply responses</li>
-                <li>Consumption patterns</li>
-                <li>General equilibrium effects</li>
-                <li>Monte Carlo simulations</li>
-              </ul>
+            <div className="product-card">
+              <div className="product-header">
+                <div className="product-icon">🌐</div>
+                <h3>REST <span className="product-verb">API</span></h3>
+              </div>
+              <p>Open HTTP endpoints for any language. Calculate taxes, generate households, model reforms. No authentication barriers.</p>
+              <a href="/docs/rest" className="product-link">View endpoints →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery Section */}
+      <section id="gallery" className="gallery-section">
+        <div className="container">
+          <h2 className="section-title">Built with Cosilico</h2>
+          <p className="section-subtitle">
+            See what's possible with the platform. From government tools to research dashboards.
+          </p>
+          <div className="gallery-grid">
+            <div className="gallery-item">
+              <div className="gallery-image">
+                <img src="https://policyengine.org/static/media/policyengine-white.b6f81ab1b1e1dc1dc58e.png" alt="PolicyEngine" />
+              </div>
+              <div className="gallery-content">
+                <h3>PolicyEngine</h3>
+                <p>The flagship policy simulation platform. Model any tax or benefit reform across the US and UK with distributional analysis and household impacts.</p>
+                <ul className="gallery-features">
+                  <li>Used by governments worldwide</li>
+                  <li>50M+ simulations run</li>
+                  <li>Real-time policy modeling</li>
+                </ul>
+                <a href="https://policyengine.org" target="_blank" rel="noopener noreferrer" className="gallery-link">Visit PolicyEngine →</a>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-image">
+                <div className="gallery-placeholder">OBBBA Tool</div>
+              </div>
+              <div className="gallery-content">
+                <h3>OBBBA Household by Household</h3>
+                <p>Interactive tool analyzing the Build Back Better Act's impacts on specific household types across different income levels.</p>
+                <ul className="gallery-features">
+                  <li>Interactive household comparisons</li>
+                  <li>Budget impact analysis</li>
+                  <li>Policy parameter exploration</li>
+                </ul>
+                <a href="https://policyengine.org/us/obbba-household-by-household" target="_blank" rel="noopener noreferrer" className="gallery-link">Explore the tool →</a>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-image">
+                <div className="gallery-placeholder">Research Tools</div>
+              </div>
+              <div className="gallery-content">
+                <h3>Research Dashboards</h3>
+                <p>Custom analysis tools built by universities and think tanks. From poverty metrics to optimal tax calculators.</p>
+                <ul className="gallery-features">
+                  <li>Academic research tools</li>
+                  <li>Policy scoring models</li>
+                  <li>Calibration dashboards</li>
+                </ul>
+                <a href="/gallery" className="gallery-link">View gallery →</a>
+              </div>
             </div>
           </div>
         </div>
@@ -179,49 +228,94 @@ function App() {
           <h2 className="section-title">Who Uses Cosilico?</h2>
           <div className="use-cases-grid">
             <div className="use-case">
-              <h4>Policy Makers</h4>
-              <p>Test legislation before implementation. Understand distributional impacts across demographics.</p>
+              <h4>AI Companies</h4>
+              <p>Build custom policy tools on demand. LLMs use our APIs to create tailored simulations for specific use cases.</p>
             </div>
             <div className="use-case">
-              <h4>Researchers</h4>
-              <p>Access high-quality microdata and policy rules for academic studies and analysis.</p>
+              <h4>Government Agencies</h4>
+              <p>Python packages for policy analysis. OBR, JCT, and state departments model reforms programmatically.</p>
+            </div>
+            <div className="use-case">
+              <h4>Research Institutions</h4>
+              <p>Access calibrated microdata via API. Universities worldwide use our platform for economic research.</p>
+            </div>
+            <div className="use-case">
+              <h4>Financial Apps</h4>
+              <p>Integrate accurate tax calculations. Personal finance tools use our rules engine for planning features.</p>
+            </div>
+            <div className="use-case">
+              <h4>Think Tanks</h4>
+              <p>Model policy impacts at scale. Score proposals and analyze distributional effects through our APIs.</p>
             </div>
             <div className="use-case">
               <h4>Developers</h4>
-              <p>Build benefit calculators, tax tools, and financial planning applications using our APIs.</p>
-            </div>
-            <div className="use-case">
-              <h4>Nonprofits</h4>
-              <p>Advocate with data. Show exactly how policies affect the communities you serve.</p>
-            </div>
-            <div className="use-case">
-              <h4>Businesses</h4>
-              <p>Understand market dynamics and policy impacts on customers and operations.</p>
-            </div>
-            <div className="use-case">
-              <h4>Individuals</h4>
-              <p>Plan your financial future with tools that understand the full complexity of the system.</p>
+              <p>Build societal modeling tools. Free tier for experimentation, comprehensive docs, and client libraries.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="about">
+      {/* Enterprise Section */}
+      <section id="enterprise" className="use-cases">
         <div className="container">
-          <h2 className="section-title">From PolicyEngine to Cosilico</h2>
-          <p className="about-text">
-            Cosilico evolved from PolicyEngine, expanding beyond policy simulation to encompass 
-            the full spectrum of societal modeling. We build infrastructure for a world 
-            where complex systems become understandable, testable, and improvable through open collaboration.
+          <h2 className="section-title">Enterprise Solutions</h2>
+          <p className="section-subtitle">
+            Custom integrations, dedicated support, and tailored solutions for organizations with complex needs.
           </p>
+          <div className="use-cases-grid">
+            <div className="use-case">
+              <h4>Custom Development</h4>
+              <p>We build bespoke tools and integrations. From specialized dashboards to complex policy models tailored to your jurisdiction.</p>
+            </div>
+            <div className="use-case">
+              <h4>Dedicated Support</h4>
+              <p>Priority access to our engineering team. SLAs, dedicated Slack channels, and direct technical guidance.</p>
+            </div>
+            <div className="use-case">
+              <h4>Model Extensions</h4>
+              <p>Extend the platform with your proprietary rules and data. Private deployments with custom parameters and calculations.</p>
+            </div>
+            <div className="use-case">
+              <h4>Research Partnerships</h4>
+              <p>Collaborate on academic research and policy analysis. Co-author papers, develop new methodologies, access pre-release features.</p>
+            </div>
+            <div className="use-case">
+              <h4>Training & Workshops</h4>
+              <p>On-site training for your team. Learn to leverage the full platform capabilities and best practices for your use cases.</p>
+            </div>
+            <div className="use-case">
+              <h4>Compliance & Security</h4>
+              <p>SOC2, GDPR compliance, and custom security requirements. Private cloud deployments and data residency options.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Documentation Section */}
+      <section id="docs" className="about">
+        <div className="container">
+          <h2 className="section-title">Developer Documentation</h2>
           <p className="about-text">
-            Our vision: a future where accurate, accessible simulation informs every major decision — 
-            from legislation to personal finance. Society's rules move beyond law books to become 
-            encoded, tested, and continuously improved systems.
+            Everything you need to integrate Cosilico into your applications. Interactive API explorer, 
+            comprehensive method documentation, and tutorials to get you started quickly.
           </p>
-          <div className="logo-showcase">
-            <Logo size={120} showText={false} />
+          <div className="use-cases-grid" style={{maxWidth: '800px', margin: '40px auto'}}>
+            <div className="use-case">
+              <h4>Quick Start</h4>
+              <p>Get your API key and make your first call in minutes. Python, JavaScript, and R examples.</p>
+            </div>
+            <div className="use-case">
+              <h4>API Reference</h4>
+              <p>Complete documentation for all endpoints. Interactive explorer to test calls in your browser.</p>
+            </div>
+            <div className="use-case">
+              <h4>Tutorials</h4>
+              <p>Step-by-step guides for common use cases. From basic calculations to complex simulations.</p>
+            </div>
+            <div className="use-case">
+              <h4>Best Practices</h4>
+              <p>Performance tips, caching strategies, and architectural patterns for production deployments.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -229,12 +323,12 @@ function App() {
       {/* CTA Section */}
       <section className="cta">
         <div className="container">
-          <h2>Ready to Start Simulating?</h2>
-          <p>Join the open-source movement to make society more understandable.</p>
+          <h2>Start Building with Cosilico</h2>
+          <p>No API key needed. Try it right in your browser or install locally.</p>
           <div className="cta-buttons">
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary">Open Playground</button>
             <a href="https://github.com/maxghenis/cosili.co" className="btn btn-secondary">
-              Contribute on GitHub
+              View on GitHub
             </a>
           </div>
         </div>
@@ -250,25 +344,25 @@ function App() {
             </div>
             <div className="footer-sections">
               <div className="footer-section">
-                <h5>Products</h5>
-                <a href="/govern">Govern</a>
-                <a href="/budget">Budget</a>
-                <a href="/survey">Survey</a>
-                <a href="/propose">Propose</a>
+                <h5>Platform</h5>
+                <a href="/docs/python">Python Package</a>
+                <a href="/docs/rest">REST API</a>
+                <a href="/docs">Documentation</a>
+                <a href="/pricing">Pricing</a>
               </div>
               <div className="footer-section">
                 <h5>Developers</h5>
                 <a href="/docs">Documentation</a>
-                <a href="/api">API Reference</a>
+                <a href="/api">API Explorer</a>
                 <a href="https://github.com/maxghenis/cosili.co">GitHub</a>
-                <a href="/contribute">Contribute</a>
+                <a href="/pricing">Pricing</a>
               </div>
               <div className="footer-section">
-                <h5>Company</h5>
-                <a href="/about">About</a>
-                <a href="/blog">Blog</a>
-                <a href="/contact">Contact</a>
+                <h5>Solutions</h5>
+                <a href="#enterprise">Enterprise</a>
                 <a href="https://policyengine.org">PolicyEngine</a>
+                <a href="/gallery">Gallery</a>
+                <a href="/contact">Contact Sales</a>
               </div>
             </div>
           </div>
