@@ -127,7 +127,7 @@ function App() {
           <div className="gallery-grid">
             <div className="gallery-item">
               <div className="gallery-image">
-                <img src="https://policyengine.org/static/media/policyengine-white.b6f81ab1b1e1dc1dc58e.png" alt="PolicyEngine" />
+                <img src="/policyengine-screenshot.png" alt="PolicyEngine" />
               </div>
               <div className="gallery-content">
                 <h3>PolicyEngine</h3>
@@ -142,7 +142,7 @@ function App() {
             </div>
             <div className="gallery-item">
               <div className="gallery-image">
-                <div className="gallery-placeholder">OBBBA Tool</div>
+                <img src="/obbba-household-by-household.png" alt="OBBBA Household by Household" />
               </div>
               <div className="gallery-content">
                 <h3>OBBBA Household by Household</h3>
