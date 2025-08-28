@@ -157,17 +157,17 @@ function App() {
             </div>
             <div className="gallery-item">
               <div className="gallery-image">
-                <div className="gallery-placeholder">Research Tools</div>
+                <img src="/election-calculator.png" alt="2024 Election Tax Calculator" />
               </div>
               <div className="gallery-content">
-                <h3>Research Dashboards</h3>
-                <p>Custom analysis tools built by universities and think tanks. From poverty metrics to optimal tax calculators.</p>
+                <h3>2024 Election Tax Calculator</h3>
+                <p>Interactive tool comparing how the Trump and Harris tax proposals would affect individual households based on their specific circumstances.</p>
                 <ul className="gallery-features">
-                  <li>Academic research tools</li>
-                  <li>Policy scoring models</li>
-                  <li>Calibration dashboards</li>
+                  <li>Personalized tax impact analysis</li>
+                  <li>Side-by-side policy comparison</li>
+                  <li>State-specific calculations</li>
                 </ul>
-                <a href="/gallery" className="gallery-link">View gallery →</a>
+                <a href="https://policyengine.org/us/2024-election-calculator" target="_blank" rel="noopener noreferrer" className="gallery-link">Try the calculator →</a>
               </div>
             </div>
           </div>
